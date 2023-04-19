@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+    font-family:'Roboto';
+}
+header{
+    background-image: url("Images/background-top.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 50px;
+    height: 100vh;
+}
+.container{
+    margin: 0 auto;
+    width: 1181px;
+}
+.header__main-menu{
+    display: flex;
+}
+.main-menu{
+    display: flex;
+    gap: 36px;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto 0px auto 96px;
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #8794BA;
+}
+.sign-in{
+    font-weight: 400;
+    font-size: 16px;
+    color: #8794BA;
+    margin: auto 0px auto 314px;
+}
+.sign-up{
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8794BA;
+
+    align-items: center;
+    padding: 10px 53px;
+
+    width: 170px;
+    height: 40px;
+    border: 1px solid #465B95;
+    border-radius: 68px;
+    background: none;
+}
+.header__text-block{
+    margin-top: 160px;
+    width: 550px;
+}
+.text-block__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+.text-block__subtitle{
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+
+    color: #8794BA;
+}
+.try_forfree{
+    margin-top: 49px;
+
+    align-items: center;
+    padding: 10px 80px;
+
+    width: 250px;
+    height: 50px;
+
+    background: #EF2A82;
+    border-radius: 68px;
+    border: none;
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.Features{
+    margin-top: 41px;
+}
+.Features__title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #172755;
+    text-align: center;
+}
+.Features__subtitle{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #8794BA;
+}
+.Features__items{
+    margin-top: 81px;
+    display: flex;
+    justify-content: space-between;
+}
+.item__feature-title{
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #172755;
+    margin-top: 26px;
+}
+.item__feature-subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #8794BA;
+    margin-top: 16px;
+}
+.img__feature{
+    display: flex;
+    margin: 0 auto;
+}
