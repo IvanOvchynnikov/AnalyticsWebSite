@@ -13,7 +13,7 @@ header{
     background-repeat: no-repeat;
     background-size: 100%;
     padding-top: 50px;
-    height: 100vh;
+    height: 110vh;
 }
 .container{
     margin: 0 auto;
@@ -38,6 +38,8 @@ header{
     font-size: 16px;
     color: #8794BA;
     margin: auto 0px auto 314px;
+    background: none;
+    border:none;
 }
 .sign-up{
     margin-left: 40px;
@@ -128,4 +130,211 @@ header{
 .img__feature{
     display: flex;
     margin: 0 auto;
+}
+.content{
+    margin-top: 130px;
+}
+.content_page{
+    display: flex;
+    flex-direction: column;
+}
+.content__item-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #172755;
+
+}
+.content__item-subtitle{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #8794BA;
+
+}
+.content__item{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.content__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+    width: 480px;
+}
+.pricing__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+footer{
+    background: url("Images/background-bottom.png") center center/cover no-repeat;
+    padding-top: 160px;
+    padding-bottom: 103px;
+}
+.pricing_plans{
+    padding-top: 272px;
+}
+.pricing__subtitle{
+    margin-top: 30px;
+    ont-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #8794BA;
+}
+.pricing__options{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #2A407C;
+}
+.pricing__item{
+    width: 340px;
+    height: 440px;
+    background: #0F1F4B;
+    box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
+    border-radius: 30px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    transition: 0.3s all;
+}
+.pricing_options-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: 0.3s all;
+}
+.pricing_options-subtitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #8794BA;
+    margin: 10px auto 0 auto;
+    border-bottom: 1px solid #2A407C;
+    padding-bottom: 37px;
+    width: 220px;
+}
+.pricing_options-price{
+    display: flex;
+    margin-top: 28px;
+    width: 340px;
+    justify-content: center;
+    align-items: flex-end;
+}
+.price{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 95%;
+    transition: 0.3s all;
+}
+.dollar{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: 0.3s all;
+
+}
+.pricing_options-subprice{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #8794BA;
+    margin-top: 5px;
+}
+.button_order{
+    display: flex;
+    align-items: center;
+    margin: 40px auto 0 auto;
+    padding: 10px 80px;
+    gap: 10px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #2A407C;
+    border-radius: 68px;
+    background: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    transition: 0.3s all;
+
+}
+.pricing__item:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 18px 50px -15px #060F28;
+    border-radius: 30px;
+    transform: scale(1.1);
+}
+.pricing__item:hover .pricing_options-title{
+    color: #172755;
+}
+.pricing__item:hover .dollar{
+    color: #172755;
+}
+.pricing__item:hover .price{
+    color: #172755;
+}
+
+.pricing__item:hover .button_order{
+    background-color: #EF2A82;
+    border: none;
+}
+.extra_info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 63px;
+    align-items: center;
+}
+.logo__footer{
+    width: 138.02px;
+    height: 30px;
+}
+.footer_menu-socials{
+    display: flex;
+    gap:40px;
+}
+.facebook{
+    width: 10px;
+    height: 20px;
+}
+.twitter{
+    width: 24.61px;
+    height: 20px;
+}
+.instagram{
+    width: 20px;
+    height: 20px;
+}
+.footer_menu{
+    display: flex;
+    gap: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #8794BA;
+}
+a{
+    text-decoration: none;
+    color: #8794BA;
 }
